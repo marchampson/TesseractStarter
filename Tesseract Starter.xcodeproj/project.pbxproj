@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		A568B4441E2106A500728B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B4431E2106A500728B56 /* main.m */; };
 		A568B4471E2106A500728B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B4461E2106A500728B56 /* AppDelegate.m */; };
-		A568B44A1E2106A500728B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A568B4491E2106A500728B56 /* ViewController.m */; };
+		A568B44A1E2106A500728B56 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A568B4491E2106A500728B56 /* ViewController.mm */; };
 		A568B44D1E2106A500728B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A568B44B1E2106A500728B56 /* Main.storyboard */; };
 		A568B44F1E2106A500728B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A568B44E1E2106A500728B56 /* Assets.xcassets */; };
 		A568B4521E2106A500728B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A568B4501E2106A500728B56 /* LaunchScreen.storyboard */; };
+		A568B45A1E21088700728B56 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568B4591E21088700728B56 /* opencv2.framework */; };
+		A568B45C1E2108BE00728B56 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568B45B1E2108BE00728B56 /* TesseractOCR.framework */; };
+		A568B45E1E2108FD00728B56 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = A568B45D1E2108FD00728B56 /* tessdata */; };
+		A568B4611E21091C00728B56 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568B4601E21091C00728B56 /* AssetsLibrary.framework */; };
+		A568B4631E21092200728B56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568B4621E21092200728B56 /* AVFoundation.framework */; };
+		A568B4651E21092E00728B56 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568B4641E21092E00728B56 /* CoreMedia.framework */; };
+		A568B4681E2110D600728B56 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568B4671E2110D600728B56 /* TesseractOCR.framework */; };
+		A568B46A1E2110EF00728B56 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568B4691E2110EF00728B56 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +29,20 @@
 		A568B4451E2106A500728B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A568B4461E2106A500728B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A568B4481E2106A500728B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A568B4491E2106A500728B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A568B4491E2106A500728B56 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		A568B44C1E2106A500728B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A568B44E1E2106A500728B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A568B4511E2106A500728B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A568B4531E2106A500728B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A568B4591E21088700728B56 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		A568B45B1E2108BE00728B56 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		A568B45D1E2108FD00728B56 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		A568B4601E21091C00728B56 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A568B4621E21092200728B56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A568B4641E21092E00728B56 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A568B4661E210A9800728B56 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A568B4671E2110D600728B56 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		A568B4691E2110EF00728B56 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A568B4651E21092E00728B56 /* CoreMedia.framework in Frameworks */,
+				A568B46A1E2110EF00728B56 /* opencv2.framework in Frameworks */,
+				A568B4631E21092200728B56 /* AVFoundation.framework in Frameworks */,
+				A568B4611E21091C00728B56 /* AssetsLibrary.framework in Frameworks */,
+				A568B45C1E2108BE00728B56 /* TesseractOCR.framework in Frameworks */,
+				A568B4681E2110D600728B56 /* TesseractOCR.framework in Frameworks */,
+				A568B45A1E21088700728B56 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +68,7 @@
 			children = (
 				A568B4411E2106A500728B56 /* Tesseract Starter */,
 				A568B4401E2106A500728B56 /* Products */,
+				A568B45F1E21091C00728B56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +86,14 @@
 				A568B4451E2106A500728B56 /* AppDelegate.h */,
 				A568B4461E2106A500728B56 /* AppDelegate.m */,
 				A568B4481E2106A500728B56 /* ViewController.h */,
-				A568B4491E2106A500728B56 /* ViewController.m */,
+				A568B4491E2106A500728B56 /* ViewController.mm */,
 				A568B44B1E2106A500728B56 /* Main.storyboard */,
 				A568B44E1E2106A500728B56 /* Assets.xcassets */,
 				A568B4501E2106A500728B56 /* LaunchScreen.storyboard */,
 				A568B4531E2106A500728B56 /* Info.plist */,
+				A568B45D1E2108FD00728B56 /* tessdata */,
 				A568B4421E2106A500728B56 /* Supporting Files */,
+				A568B4661E210A9800728B56 /* PrefixHeader.pch */,
 			);
 			path = "Tesseract Starter";
 			sourceTree = "<group>";
@@ -74,9 +101,23 @@
 		A568B4421E2106A500728B56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A568B45B1E2108BE00728B56 /* TesseractOCR.framework */,
+				A568B4591E21088700728B56 /* opencv2.framework */,
 				A568B4431E2106A500728B56 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A568B45F1E21091C00728B56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A568B4691E2110EF00728B56 /* opencv2.framework */,
+				A568B4671E2110D600728B56 /* TesseractOCR.framework */,
+				A568B4641E21092E00728B56 /* CoreMedia.framework */,
+				A568B4621E21092200728B56 /* AVFoundation.framework */,
+				A568B4601E21091C00728B56 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A568B4521E2106A500728B56 /* LaunchScreen.storyboard in Resources */,
+				A568B45E1E2108FD00728B56 /* tessdata in Resources */,
 				A568B44F1E2106A500728B56 /* Assets.xcassets in Resources */,
 				A568B44D1E2106A500728B56 /* Main.storyboard in Resources */,
 			);
@@ -151,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A568B44A1E2106A500728B56 /* ViewController.m in Sources */,
+				A568B44A1E2106A500728B56 /* ViewController.mm in Sources */,
 				A568B4471E2106A500728B56 /* AppDelegate.m in Sources */,
 				A568B4441E2106A500728B56 /* main.m in Sources */,
 			);
@@ -272,6 +314,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4K3RZ7GC4T;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tesseract\\ Starter",
+					"$(PROJECT_DIR)/Tesseract\\ Starter",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Tesseract Starter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marchampson.Tesseract-Starter";
@@ -284,6 +333,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4K3RZ7GC4T;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tesseract\\ Starter",
+					"$(PROJECT_DIR)/Tesseract\\ Starter",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Tesseract Starter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marchampson.Tesseract-Starter";
@@ -310,6 +366,7 @@
 				A568B4581E2106A500728B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

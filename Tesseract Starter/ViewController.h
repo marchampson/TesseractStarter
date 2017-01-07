@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <opencv2/highgui/cap_ios.h> 
+#import <opencv2/imgproc/imgproc.hpp>
+#import <TesseractOCR/G8Tesseract.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CvVideoCameraDelegate, G8TesseractDelegate>
 
+- (UIImage *) UIImageFromCVMat:(cv::Mat)cvMat;
 
 @end
-
